@@ -2,26 +2,23 @@ package Arrays;
 
 import java.util.Scanner;
 
-public class PrintSumOfArrayNumber {
-
+public class PrintProductOfArray {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
-        int arr [] = new int[5];
+        int arr[] = new int[5];
+
         for(int i = 0; i < 5; i++)
         {
-           arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt();
         }
 
-        int sum = 0;
+        int product = 1;
         for(int i = 0; i < 5; i++)
         {
-            sum += arr[i];
+            product = product * arr[i];
         }
 
-        System.out.println(sum);
-
+        System.out.println(product);
     }
-
 }
