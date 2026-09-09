@@ -24,5 +24,8 @@ public class CheckArraySorted {
             System.out.println("Array is not sorted");
         }
 
+
+
+
     }
 }
